@@ -79,8 +79,8 @@ main{
     padding:30px;
 }
 .column1of3, .column2of3, .column3of3 {
-  width: 300px;
   float: left;
+  width: 300px;
   margin: 10px;}
 
 
