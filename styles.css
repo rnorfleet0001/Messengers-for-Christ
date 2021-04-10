@@ -16,7 +16,7 @@ body{
 
 nav{
     /* --- New Color for the NAV ---  */
-    background: rgb(255, 255, 255, 0.3);
+    background: #FCFC3CF;
     /* background: grey; */
     /* height: 60px; */
     text-align: center;
@@ -75,12 +75,11 @@ main{
     flex-basis: 300px;
     flex-grow: 2;
     margin: 2px;
-    background: rgb(255, 255, 255, 0.5);
+    background: #FCFC3CF;
     padding:30px;
 }
 .column 1 of 3,.column 2 of 3,.column 3 of 3{
   width:300 px;
-  float: left;
   float: left;
   margin; 10px
 
