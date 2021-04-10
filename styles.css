@@ -78,8 +78,8 @@ main{
     background: #FCFC3CF;
     padding:30px;
 }
-.column1of3,.column2of3,.column3of3{
-  width:300px;
+.column1of3, .column2of3, .column3of3 {
+  width: 300px;
   float: left;
   margin: 10px;}
 
@@ -87,7 +87,7 @@ main{
 img{
     width: 100%;
     display: block;
-    margin:1% auto;
+    margin: 1% auto;
     border: 0;
 
 }
