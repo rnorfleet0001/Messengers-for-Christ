@@ -78,14 +78,11 @@ main{
     background: #FCFC3CF;
     padding:30px;
 }
-.column 1 of 3,.column 2 of 3,.column 3 of 3{
-  width:300 px;
+.column1of3,.column2of3,.column3of3{
+  width:300px;
   float: left;
-  margin; 10px
+  margin: 10px;}
 
-}
-}
-}
 
 img{
     width: 100%;
