@@ -3,6 +3,10 @@ body{
     padding:0;
     margin:0;
     font-family: Bradley, sans-serif;
+    font-size: 16px;
+}
+p{
+ font-size: 1.3em;   
 }
 
 .logo{
@@ -28,8 +32,8 @@ nav{
 
 nav a{
     text-align: center;
-    color:black;
-    font-size: 1.5em;
+    color: #000;
+    font-size: 1.8em;
     padding:15px;
     margin:10px;
     display: inline-block;
