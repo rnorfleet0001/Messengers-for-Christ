@@ -79,17 +79,13 @@ main{
     /* flex-direction: row; */
 }
 .flexItem{
-    flex-basis: 300px;
+    flex-basis: 90%;
     flex-grow: 2;
     margin: 2px;
     background: #FCFC3CF;
-    padding:30px;
+    padding:5px;
 }
-.column1of3, .column2of3, .column3of3{
-  float: left;
-  width: 300px;
-  margin: 10px;
-}
+
 
 
 img{
@@ -104,6 +100,10 @@ img{
         .logo{
             /* width:350px; */
         }
+    
+    .flexItem{
+       flex-basis:30%; 
+    }
         img{
             display: inline;
             width:30%;
