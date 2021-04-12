@@ -78,7 +78,7 @@ main{
 }
 .flexItem{
     flex-basis: 90%;
-    flex-grow: 2;
+   
     margin: 2px;
     background: #FCFC3CF;
     padding:5px;
@@ -101,10 +101,11 @@ img{
     
     .flexItem{
        flex-basis:30%; 
+         flex-grow: 2;
     }
         img{
-            display: inline;
-            width:30%;
+/*             display: inline;
+            width:30%; */
         }
 }
 /* large screen styles below */
