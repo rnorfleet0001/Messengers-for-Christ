@@ -9,11 +9,13 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:125px;
+    width:350px;
     
 
 }
-
+.logo img{
+    width:350;
+}
 nav{
     /* --- New Color for the NAV ---  */
     background: #FCFC3CF;
