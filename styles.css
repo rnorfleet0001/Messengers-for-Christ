@@ -42,7 +42,7 @@ nav a:hover{
 /* Styles for hero or feature */
 .hero{
     background-image: url("img/choirret.png");
-    height:800px;
+    height:900px;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: right;
