@@ -77,9 +77,9 @@ main{
     /* flex-direction: row; */
 }
 .flexItem{
-    flex-basis: 90%;
+    flex-basis: 85%;
    
-    margin: 2px;
+    margin: 4px;
     background: #FCFC3CF;
     padding:5px;
 }
