@@ -6,7 +6,7 @@ body{
     font-size: 16px;
 }
 p{
- font-size: 1.3em;   
+ font-size: 1.3em;
 }
 
 .logo{
@@ -48,7 +48,7 @@ nav a:hover{
     background-image: url("img/choirret.png");
     height:250px;
     width:100%;
-        
+
     background-size:cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -57,10 +57,10 @@ nav a:hover{
     position: relative;
 }
 .hero h2{
- 
+
 }
 button{
-     
+
     background: none;
     padding:5px;
     border:2px black solid;
@@ -78,7 +78,7 @@ main{
 }
 .flexItem{
     flex-basis: 95%;
-   
+
     margin: 5%;
     background: #FCFC3CF;
     padding:5px;
@@ -93,14 +93,86 @@ img{
     border: 0;
 
 }
+/* START MOBILE FORM STYLES */
+    .form-container{
+/*       TO CENTER add AUTO for margin right and left*/
+      margin: 20px auto;
+/*  WIDTH 100%  FOR MOBILE DEVICES*/
+      width:90%;
+      display:block;
+      font-size:1em;
+    }
+    form p{
+      margin-bottom:5px;
+
+    }
+    label{
+      display:block;
+    }
+    #newsletter input{
+      display:inline;
+      width:auto;
+    }
+    input{
+      /* FOR MOBILE use WIDTH:100% */
+      width:100%;
+      padding:1.7%;
+      margin:1.5% 0;
+      font-size: 1em;
+      border-radius: 4px;
+      border:1px solid #ccc;
+      box-sizing: border-box;
+    }
+    textarea{
+      min-height:100px;
+       /* FOR MOBILE use WIDTH:100% */
+      width: 100%;
+      padding: 2%;
+      margin: 1.5% 0;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button{
+      /* CHANGED COLORS bellow */
+      background: #45A99F;
+      border: 1px solid #45A99F;
+      /* Rounded corners */
+      border-radius: 4px;
+      /* Text color */
+      color:white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding:10px 20px;
+      font-size: 1.1em;
+    }
+  /*        END MOBILE FORM STYLES */
+
+    @media only screen and (min-width: 1000px) {
+ /*         START DESKTOP FORM STYLES */
+      .form-container{
+ /*         CHANGE WIDTH of FORM TO YOUR PREFERENCE */
+        width:50%;
+      }
+      input{
+         /* CHANGE WIDTH TO YOUR PREFERENCE */
+        width:60%;
+      }
+      button{
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+    }
+
 /* medium size below */
 @media screen and (min-width: 700px) {
         .logo{
             /* width:350px; */
         }
-    
+
     .flexItem{
-       flex-basis:30%; 
+       flex-basis:30%;
          flex-grow: 2;
     }
         img{
