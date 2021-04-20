@@ -6,7 +6,7 @@ body{
     font-size: 16px;
 }
 p{
- font-size: 1.3em;
+ font-size: 1.2em;
 }
 
 .logo{
@@ -93,6 +93,14 @@ img{
     border: 0;
 
 }
+/* class map */
+.map{
+width:90%;
+margin-right:auto;
+margin-left:auto;
+display:block;
+
+}
 /* START MOBILE FORM STYLES */
     .form-container{
 /*       TO CENTER add AUTO for margin right and left*/
@@ -113,6 +121,10 @@ img{
       display:inline;
       width:auto;
     }
+    /* [type="checkbox"]{
+      display:inline;
+      width:auto;
+    } */
     input{
       /* FOR MOBILE use WIDTH:100% */
       width:100%;

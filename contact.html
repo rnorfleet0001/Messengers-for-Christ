@@ -17,15 +17,15 @@
 
         <nav>
             <a href="index.html">Home</a>
-            <a href="">Reunion</a>
-            <a href="">Contact</a>
+            <a href="reunion.html">Reunion</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
         <!-- START OF FORM -->
 <!-- <h2>Contact Us</h2> -->
 <div class="form-container">
 <!--     FORM ACTION will go to a FAKE Thank You page if you want to create one, OR remove it so hiting the submit button doesn't break the page -->
-       <p> Message us with any questions, tell us about your favorite times with the Messengers.  Please complete this form so we can count you in for our reunion.
+       <p> Message us with any questions, tell us about your favorite times with the Messengers.  Please complete this form so we can count you in for our reunion.<br>
        <br>
        <label>Your Name: <br>
        <input type="text" id="name" name="name" required></label>
@@ -33,24 +33,21 @@
        <label>Email: <br>
        <input type="text" id="email" name="email" required></label>
 
-         "<label>Cell Number: <br>
+         <label>Cell Number: <br>
          <input type="text" id="name" name="cell number" required></label>
         </p>
 
       <p>Activities You Plan to Attend:
       <br>
-      <input type="checkbox" name="activities"
-          value="concert & rehearsals" checked="checked" /> Concert & Rehearsals
-        <!-- Rehearsals will be held on Thursday, September 1,<br>
-            Friday, September 2<br>
-            Saturay, September 3<br>
-            If you are travelling from out of town we will be preparing a playlist with lyrics for you.  We are only doing nine songs plus the devotional songs. -->
+      <label id="concertandrehearsals"> <input type="checkbox" class="cursor" id="concertandrehearsals" name="concertandrehearsals" checked> Concerts & Rehearsals</label>
+
+
           <input type="checkbox" name="activities"
               value="reunion reception" checked="checked" /> Reunion Reception
-          <!--The Reunion Reption will be held following the Saturday rehearsal. During the reunion reception we will be recognizing our founders, directors, past presidents, charter members, alumni members, emeritus members and current members.  We would like to get everyone at the Reunion Reception because we want to take group and individual photos for the website and our archives.-->
+
           <input type="checkbox" name="activities"
               value="concert only" checked="checked" /> Concert Only
-          <!--We realize that some may only be able to attend the concert on Sunday, September 4, 2022.  Just come on! We look forward to seeing you!-->
+
           </p>
 
       <p>What is your vocal section?: </p>
@@ -71,7 +68,7 @@
 
 
             <h2>Make Your Reservation</h2>
-          <p>We have attempted to keep the costs low because we realize that some of you will have travel and accommodation expenses.  We are planning some gift bags for all attendees.  We also have to cover the costs of the reception food, musicians, programs, video recording & editing and all printed materials.  We are trying to do as much online as possible to reduce our postage expenses.  If you want to contribute more than the registration fee, free to do so.  To save money, it would help if you would forward a check money order or cashiers check to our treasurer.<br>
+          <p>We have attempted to keep the costs low because we realize that some of you will have travel and accommodation expenses.  We are planning some gift bags for all attendees.  We also have to cover the costs of the reception food, musicians, programs, video recording & editing and all printed materials.  We are trying to do as much online as possible to reduce our postage expenses.  If you want to contribute more than the registration fee, free to do so.  To save money, it would help if you would forward a check,money order or cashiers check to our treasurer.<br>
 
             <h3> Registration: $30.00<h3>
               <p> Please respond as soon as possible so we can plan adequately for your attendance.  You can forward you payment to:<br> Cathy Jameson <br>4004 Wooded Way<br>Louisville, KY 40219<br>
@@ -93,11 +90,15 @@
 
 </div> <!-- END OF CONTAINER DIV -->
 <!-- END OF FORM -->
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.8327002471774!2d-85.75789029999994!3d38.23698929999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d5259921093%3A0x293ccba6d718bef!2sWalnut%20Street%20Baptist%20Church!5e0!3m2!1sen!2sus!4v1618946966938!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</div>
 <!-- More information on forms see chapter 7 in our HTML AND CSS book -->
 
         <main>
             <div class="flexItem">
-                <h3>History</h3>
+
 
             </div>
 
@@ -115,7 +116,7 @@
 
         </main>
         <footer>
-            <p>© 2021 Messengers for Christ Intergenerational Choir <a href="#"> Back to top</p>
+            <p>Christ - Church - Community<a href="#"> Back to top</p>
         </footer>
     </body>
 </html>
